@@ -13,7 +13,7 @@ joined=messages=0
 
 messages = joined = 0
 
-token = "ODA3OTg3MDk2MTExMTUzMTcy.YB_-nw.24oj30-aJr8RNR0MoqCf41Z58xA"
+token = "YOUR_TOKEN_HERE"
 
 client = discord.Client()
 
@@ -51,7 +51,7 @@ async def on_message(message):
     global messages
     messages += 1
 
-    #id = client.get_guild(807987096111153172)
+    
     channels = ["commands", "general"]
 
     if str(message.channel) in channels:
